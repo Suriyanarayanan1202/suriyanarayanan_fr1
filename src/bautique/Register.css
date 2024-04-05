@@ -1,0 +1,98 @@
+
+
+#register-container{
+    background-color: rgb(117, 72, 94);
+    height: 100vh;
+    border-radius: 30px;
+}
+.header h1{
+    padding-top: 50px;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px black;
+}
+.names{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+.names .fullname{
+    height: 50px;
+    width: 700px;
+    text-align: center;
+    font-weight: 300px;
+    font-size: x-large;
+    border-radius: 20px;
+    font-style: italic;
+}
+.names .firstname:hover{
+    transform:scale(1.1)
+}
+.names .lastname:hover{
+    transform:scale(1.1)
+}
+
+.emailinput{
+    padding-left: 390px;
+    padding-top: 20px;
+}
+.emailinput:hover{
+    transform: scale(1.1);
+}
+.email{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 400px;
+    text-align: center;
+    font-weight: 300px;
+    font-size: x-large;
+    color: black;
+    border-radius: 20px;
+    
+}
+.password{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 700px;
+    text-align: center;
+    font-weight: 300px;
+    font-size: x-large;
+    color: black;
+    border-radius: 20px;
+    
+}
+.checkbox{
+    padding-left: 580px;
+    padding-top: 50px;
+}
+/* .signbox{
+    height: 50px;
+    width: 500px;
+    border-radius: 20px;
+    padding-top: 50px;
+    font-size: x-large;
+    background-color: rgb(48, 42, 42);
+    color: white;
+    padding-left:500px;
+} */
+.signup{
+    height: 50px;
+    width: 400px;
+    border-radius: 20px;
+    margin-left: 550px;
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    font-size: x-large ;
+}
+.signup:hover{
+    background-color: aliceblue;
+    color: blue;
+    transition: all 1s;
+    font-weight: 500px;
+
+}
